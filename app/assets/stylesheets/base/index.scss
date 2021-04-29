@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://www.chromethemer.com/wallpapers/chromebook-wallpapers/download/chalkboard-3840x2160.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 3em;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+  height: 10rem;
+  border-radius: 90%;
+  background-color: transparent;
+  color: white;
+  font-size: 2em;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  border-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+div {
+}
+
+form {
+}
+
+button {
+  box-sizing: border-box;
+  font-family: "Permanent Marker", cursive;
+  font-weight: bolder;
+  font-size: 2em;
+  color: white;
+  background-color: transparent;
+  margin-left: 130px;
+  padding-top: 80px;
+  border-style: none;
+}
+
+button::-webkit-outer-spin-button,
+button::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button:hover {
+  color: rgb(243, 212, 154);
+}
