@@ -20,15 +20,11 @@ class ConvertersController < ApplicationController
   def hash(arr)
     hash = { A: 10, B: 11, C: 12, D: 13, E: 14, F: 15 }
 
-    arr.map do |number|
-      hash.map do |key, value|
-        if number == value
-          number = key.to_s
-          p number
-        end
+    arr.each_with_index do |number, index|
+      hash.each do |key, value|
+        arr[index] = key.to_s if number == value
       end
     end
-    p arr
     arr
   end
 end
